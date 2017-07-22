@@ -90,7 +90,7 @@ uint8_t getFingerprintID() {
     return p;
   }   
   
-  Serial.print("Found ID #"); Serial.print(finger.fingerID); 
+  Serial.print("FINGERFOUND,"); Serial.print(finger.fingerID); 
   Serial.print(",with confidence of "); Serial.println(finger.confidence); 
 }
 
